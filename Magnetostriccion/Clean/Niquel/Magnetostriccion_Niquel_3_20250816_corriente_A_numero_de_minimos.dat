@@ -1,0 +1,13 @@
+---
+experiment_name: Magnetostriccion_Niquel_3
+---
+corriente_A, numero_de_minimos
+0.16, 0
+0.24, 1
+0.32, 1
+0.51, 1
+0.79, 1
+1.16, 1
+1.57, 1
+2.79, 1
+3.19	1
