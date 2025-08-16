@@ -1,0 +1,8 @@
+---
+experiment_name: Magnetostriccion_Hierro_2
+---
+corriente_A, numero_de_minimos
+0.15, 0
+0.78, 1
+1.97, -1
+3.31, -1
