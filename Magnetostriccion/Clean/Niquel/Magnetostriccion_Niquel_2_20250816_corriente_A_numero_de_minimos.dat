@@ -1,11 +1,8 @@
----
-experiment_name: Magnetostriccion_Niquel_2
----
-corriente_A, numero_de_minimos
--0.16, 0
--0.24, 1
--0.30, 1
--0.44, 1
--0.59, 1
--0.82, 1
--1.12, 1
+corriente_A,numero_de_minimos
+0.16, 0
+0.24, 1
+0.30, 1
+0.44, 1
+0.59, 1
+0.82, 1
+1.12, 1

@@ -1,7 +1,4 @@
----
-experiment_name: Magnetostriccion_Niquel_4
----
-corriente_A, numero_de_minimos
+corriente_A,numero_de_minimos
 3.07, 0
 2.14, 1
 1.81, 1
