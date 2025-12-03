@@ -1,0 +1,23 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+def main():
+    data = pd.read_csv("./data.csv")
+
+    x, y = data["rad"], data["vpp"]
+    pendiente, intercepto = np.polyfit(x, y, 1)
+    print(pendiente, intercepto)
+
+    plt.scatter(x, y)
+    plt.plot(x, (lambda v : pendiente * v + intercepto)(x))
+
+    plt.title("Calibración del Rotor")
+    plt.xlabel(r"$\theta$ (Rad)")
+    plt.ylabel(r"$V_{pp}$")
+
+    plt.savefig("./actividad_1.png")
+
+
+if __name__ == "__main__":
+    main()
